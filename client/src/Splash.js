@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../media/chat-hero.jpg'
+// import hero from '../media/chat-hero.jpg'
 
 export default function Splash() {
     return (
@@ -10,7 +10,7 @@ export default function Splash() {
                 <input type="text" className="text" placeholder="Enter your name" />
                 <a href="#" className="button">Enter</a>
             </div>
-            <img src={hero} alt="chat-o-matic" />
+            {/* <img src={hero} alt="chat-o-matic" /> */}
         </header>
     )
 }
